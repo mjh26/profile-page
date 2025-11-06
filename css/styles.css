@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: url('../media/bg.jpg');
+    background-color: #f3f3f3;
+}
+
+header {
+    max-width: 100%;
+    padding: 20px;
+
+}
