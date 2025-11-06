@@ -1,12 +1,62 @@
+@font-face {
+    font-family: 'DMSerif';
+    src: url('../fonts/DMSerifText-Italic.ttf');
+    font-weight: 900;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background: url('../media/bg.jpg');
+    background-position: 0 -25px;
     background-color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
 }
 
 header {
     max-width: 100%;
     padding: 20px;
+}
 
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    float: left;
+    font-family: 'DMSerif';
+}
+
+.logo-circle {
+    background: #eea302;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 0 15px;
+    border-right: 1px solid #000;
+}
+
+nav a:hover {
+    color: #eea302;
+}
+
+nav li:last-child a {
+    border: none;   
 }
